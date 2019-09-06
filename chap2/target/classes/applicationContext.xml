@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- chap2/src/main/java/applicationContext.xml -->
+<!--
+	xmlns : namespace. (:이 붙지 않으면 default namespace)
+			xml은 태그를 내 마음대로 만들 수 있음. 그 태그를 유일한 것으로 만들어 줄 수 있게 이름 영역을 설정해 주는 것. 중복을 피할 수 있음.
+	
+-->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  <!-- .xsd 파일 : xml을 어떻게 만들어야 하는지의 규칙을 정의 -->
+	<bean id="greeter" class="chap2.Greeter">  <!-- 컨테이너 내부에 객체 생성. chap2에 있는 Greeter 타입의 객체를 만들어서 greeter라는 이름에 저장. -->
+		<property name="format" value="안녕하세요, %s"></property>  <!-- %s를 뒤로 넣으면 안녕하세요가 앞에 출력됨. -->  <!-- setProperty. setFormat()메서드에 value를 전달. -->
+	</bean>
+	<!-- <bean id="message" class="chap2.MessageKr" />  Message는 interface이므로 직접 객체화 불가능. MessageKr 클래스는 Message 인터페이스를 구현해야 함. -->
+	<bean id="message" class="chap2.MessageEn" />  <!-- Main2.java에서는 바뀌는 것 없음. 의존성 주입 : 객체 사이의 의존 관계가 자기 자신(Main2.java)이 아닌 외부(~.xml)에 의해서 설정. -->
+</beans>
