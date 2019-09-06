@@ -1,0 +1,35 @@
+package dao;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import dao.mapper.PointMapper;
+import logic.Point;
+import logic.User;
+
+@Repository
+public class PointDao {
+	@Autowired
+	private SqlSessionTemplate sqlSession;
+	private String NS = "dao.mapper.PointMapper.";
+	private Map<String, Object> param = new HashMap<>();
+	
+	public void insert(Point p) {
+		sqlSession.getMapper(PointMapper.class).insert(p);
+	}
+
+	public Integer dateChk(String id, String content) {
+		param.clear();
+		param.put("id", id);
+		param.put("logindate", new Date());
+		param.put("content", content);
+		return sqlSession.selectOne(NS + "datechk", param);
+	}
+	
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.mapper.PointMapper">
+	<select id="list" resultType="Point" parameterType="map">
+		select * from point
+		<where>
+			<if test="id != null">id = #{id}</if>
+		</where>
+	</select>
+	<select id="datechk" resultType="Integer" parameterType="map">
+		select min(datediff(#{logindate}, appdate)) from point
+		<where>
+			<if test="content != null">id = #{id} and kbn = '적립' and content = #{content}</if>
+		</where>
+	</select>
+</mapper>

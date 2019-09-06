@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.mapper.BoardMapper">
+<!-- 	<select id="count" parameterType="map" resultType="int"> -->
+<!-- 		select count(*) from board -->
+<!-- 	</select> -->
+	<select id="list" resultType="Board" parameterType="map">
+		select num,name,pass,subject,content,file1 fileurl,regdate,readcnt,ref,ref_level,ref_step from board
+
+		<if test="num != null">where num=#{num}</if>
+		<if test="search != null">where ${searchType} like '%${searchcontent}%'</if>
+
+		order by ref desc,ref_step asc
+		<if test="limit != null">
+			limit #{start},#{end}
+		</if>
+	</select>
+	<select id="map" resultType="string" parameterType="map">
+		select name from board group by name
+	</select>
+</mapper>

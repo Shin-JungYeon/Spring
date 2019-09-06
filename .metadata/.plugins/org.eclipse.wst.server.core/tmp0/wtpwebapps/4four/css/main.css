@@ -1,0 +1,147 @@
+/* WebContent/css/main.css */
+		* { 
+			/* Basic CSS reset */
+			margin:0; 
+			padding:0;
+		}
+
+		body {
+			/* These styles have nothing to do with the ribbon */
+			background:#222;
+			padding:35px 0 0;
+			margin:auto;
+			text-align:center;
+		}
+
+		.ribbon {
+			display:inline-block;
+		}
+
+		.ribbon:after, .ribbon:before {
+			margin-top:0.5em;
+			content: "";
+			float:left;
+			border:1.5em solid #fff;
+		}
+
+		.ribbon:after {
+			border-right-color:transparent;
+		}
+
+		.ribbon:before {
+			border-left-color:transparent;
+		}
+
+		.ribbon a:link, .ribbon a:visited { 
+			color:#000;
+			text-decoration:none;
+			float:left;
+			height:3.5em;
+			overflow:hidden;
+		}
+
+		.ribbon span {
+			background:#fff;
+			display:inline-block;
+			line-height:3em;
+			padding:0 1em;
+			margin-top:0.5em;
+			position:relative;
+
+			-webkit-transition: background-color 0.2s, margin-top 0.2s;  /* Saf3.2+, Chrome */
+			-moz-transition: background-color 0.2s, margin-top 0.2s;  /* FF4+ */
+			-ms-transition: background-color 0.2s, margin-top 0.2s;  /* IE10 */
+			-o-transition: background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+ */
+			transition: background-color 0.2s, margin-top 0.2s;
+		}
+
+		.ribbon a:hover span {
+			color:#fff;
+			background:#000040;
+			margin-top:0;
+		}
+		.ribbon span:before {
+			content: "";
+			position:absolute;
+			top:3em;
+			left:0;
+			border-right:0.5em solid #9B8651;
+			border-bottom:0.5em solid #fff;
+		}
+
+		.ribbon span:after {
+			content: "";
+			position:absolute;
+			top:3em;
+			right:0;
+			border-left:0.5em solid #9B8651;
+			border-bottom:0.5em solid #fff;
+		}
+table{width:100%;}
+table#deco{
+	margin : auto;
+   width : 60%;
+   border-radius: 10px;
+}
+table#list{
+	margin : auto;
+	width : 80%;
+	border-radius: 10px;
+}
+table#list.num{
+	background-color: black;
+	border-radius: 10px;
+}
+table a:hover{
+	background-color:#bec1da;
+	 opacity: 0.8;
+	 transition: background-color .6s;
+}
+th,td {
+   border : 3px #bcbcbc;
+   text-align : center;
+   padding : 8px;
+   border-radius: 10px;
+}
+th {
+   background-color : #061f2f;
+   color : #adbacf;
+}
+td {
+   background-color : #F2F2F2;
+}
+caption {
+   color : #4c4c4c;
+   font-size : 20px;
+   background-color : #cccccc;
+   border-radius: 10px;
+}
+input[type=text], input[type=password],textarea {
+   width : 100%;
+}
+a{
+	font:700;
+	text-decoration: none;
+}
+a:hover:not(.page a.active) {
+	background-color:#bec1da;
+	 opacity: 0.8;
+	 transition: background-color .6s;
+}
+
+/*페이지 표시를 위한 css*/
+.page a {
+  color: black;
+
+  padding: 4px 10px;
+  text-decoration: none;
+  transition: background-color .6s;
+}
+
+.page a.active {
+  background-color: #155488;
+  border-radius:3px;
+  color: white;
+}
+
+.page a:hover:not(.active) {background-color: #ddd;}

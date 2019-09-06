@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<decorators defaultdir="/decorator">
+	<decorator name="main" page="decorator.jsp">
+		<pattern>*.deco</pattern>
+	</decorator>
+	<!-- layout 제외 설정 -->
+	<excludes>
+		<pattern>/board/imgupload*</pattern>
+		<pattern>/admin/graph*</pattern>
+	</excludes>
+</decorators>

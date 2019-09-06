@@ -1,0 +1,163 @@
+
+6월 18, 2019 10:17:41.18 NEW SESSION
+6월 18, 2019 10:17:41.18 [9220:764:0618/101741.185:ERROR:browser_process_sub_thread.cc(217)] Waited 33 ms for network service
+6월 18, 2019 10:23:25.55 [4856:10480:0618/102325.559:ERROR:browser_process_sub_thread.cc(217)] Waited 13 ms for network service
+6월 18, 2019 10:26:12.95 [1968:9868:0618/102612.957:ERROR:browser_process_sub_thread.cc(217)] Waited 12 ms for network service
+6월 18, 2019 11:51:00.38 [7804:6100:0618/115100.389:ERROR:browser_process_sub_thread.cc(217)] Waited 11 ms for network service
+6월 18, 2019 13:01:29.51 [688:12004:0618/130129.500:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 18, 2019 13:41:26.20 [688:7504:0618/134126.200:ERROR:browser_process_sub_thread.cc(217)] Waited 11 ms for network service
+6월 18, 2019 16:25:02.33 [8972:5620:0618/162502.339:ERROR:browser_process_sub_thread.cc(217)] Waited 17 ms for network service
+
+6월 19, 2019 10:01:32.98 NEW SESSION
+6월 19, 2019 10:01:32.98 [15304:15256:0619/100132.989:ERROR:browser_process_sub_thread.cc(217)] Waited 12 ms for network service
+6월 19, 2019 10:03:40.12 [14056:11336:0619/100340.122:ERROR:browser_process_sub_thread.cc(217)] Waited 10 ms for network service
+6월 19, 2019 11:04:36.40 [13696:10564:0619/110436.400:ERROR:browser_process_sub_thread.cc(217)] Waited 14 ms for network service
+6월 19, 2019 11:12:47.56 [4100:3976:0619/111247.564:ERROR:browser_process_sub_thread.cc(217)] Waited 15 ms for network service
+6월 19, 2019 11:13:46.60 [8588:7700:0619/111346.600:ERROR:browser_process_sub_thread.cc(217)] Waited 17 ms for network service
+6월 19, 2019 11:40:20.53 [8132:3220:0619/114020.531:ERROR:browser_process_sub_thread.cc(217)] Waited 9 ms for network service
+6월 19, 2019 13:36:17.18 [3344:15132:0619/133617.186:ERROR:browser_process_sub_thread.cc(217)] Waited 23 ms for network service
+6월 19, 2019 13:38:45.12 [368:14908:0619/133845.123:ERROR:browser_process_sub_thread.cc(217)] Waited 13 ms for network service
+6월 19, 2019 13:41:49.53 [14600:16156:0619/134149.537:ERROR:browser_process_sub_thread.cc(217)] Waited 11 ms for network service
+6월 19, 2019 13:43:36.13 [15704:12108:0619/134336.138:ERROR:browser_process_sub_thread.cc(217)] Waited 11 ms for network service
+6월 19, 2019 13:44:14.93 [16240:14476:0619/134414.930:ERROR:browser_process_sub_thread.cc(217)] Waited 19 ms for network service
+6월 19, 2019 14:10:12.38 [3168:14964:0619/141012.384:ERROR:browser_process_sub_thread.cc(217)] Waited 20 ms for network service
+6월 19, 2019 14:14:46.91 [11004:8968:0619/141446.916:ERROR:browser_process_sub_thread.cc(217)] Waited 18 ms for network service
+6월 19, 2019 14:50:52.16 [4420:9748:0619/145052.165:ERROR:browser_process_sub_thread.cc(217)] Waited 12 ms for network service
+
+6월 20, 2019 11:25:58.99 NEW SESSION
+6월 20, 2019 11:25:58.99 [10560:5292:0620/112558.992:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+6월 20, 2019 11:27:39.85 [15260:15888:0620/112739.852:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+6월 20, 2019 12:14:08.54 [9832:13176:0620/121408.542:ERROR:browser_process_sub_thread.cc(221)] Waited 33 ms for network service
+6월 20, 2019 12:15:03.84 [1116:5304:0620/121503.848:ERROR:browser_process_sub_thread.cc(221)] Waited 18 ms for network service
+6월 20, 2019 12:16:01.40 [6596:2384:0620/121601.409:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+6월 20, 2019 12:59:03.54 [12752:11056:0620/125903.546:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 20, 2019 14:03:52.33 [12752:6744:0620/140352.337:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+6월 20, 2019 14:33:38.70 [13880:14812:0620/143338.707:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 20, 2019 14:54:57.85 [13428:14592:0620/145457.851:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+6월 20, 2019 14:58:35.00 [4296:10100:0620/145835.000:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 20, 2019 15:06:10.01 [1428:16284:0620/150610.014:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 20, 2019 15:45:57.62 [4100:5284:0620/154557.623:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+6월 20, 2019 19:39:58.98 [14692:4136:0620/193958.984:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 21, 2019 09:29:56.47 [14692:4136:0621/092956.476:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 21, 2019 09:45:53.75 [14692:14032:0621/094553.751:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+6월 21, 2019 10:17:27.83 [5504:16164:0621/101727.832:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 21, 2019 10:20:41.42 [7804:6068:0621/102041.428:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 21, 2019 10:37:20.07 [16896:14556:0621/103720.062:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 21, 2019 11:08:53.39 [16004:13396:0621/110853.393:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 21, 2019 13:16:28.50 [8364:11336:0621/131628.500:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 21, 2019 13:39:41.82 [8364:4288:0621/133941.826:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 21, 2019 13:48:47.52 [17748:17800:0621/134847.523:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+6월 21, 2019 13:50:08.95 [1260:9948:0621/135008.956:ERROR:browser_process_sub_thread.cc(221)] Waited 21 ms for network service
+6월 21, 2019 13:51:39.05 [1792:9148:0621/135139.056:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+6월 21, 2019 14:37:02.90 [9208:15892:0621/143702.903:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+6월 21, 2019 14:40:09.18 [14776:6596:0621/144009.186:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+6월 21, 2019 14:42:08.23 [16972:10612:0621/144208.238:ERROR:browser_process_sub_thread.cc(221)] Waited 16 ms for network service
+6월 21, 2019 16:00:17.23 [18168:1804:0621/160017.236:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+6월 21, 2019 16:41:07.26 [10276:2776:0621/164107.260:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+
+6월 24, 2019 09:31:21.47 NEW SESSION
+6월 24, 2019 09:31:21.47 [5896:12952:0624/093121.478:ERROR:browser_process_sub_thread.cc(221)] Waited 16 ms for network service
+
+6월 24, 2019 11:09:59.20 NEW SESSION
+6월 24, 2019 11:09:59.20 [16260:15892:0624/110959.184:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 24, 2019 11:40:17.77 [1232:6412:0624/114017.779:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 24, 2019 11:44:38.66 [8000:5400:0624/114438.664:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 24, 2019 11:49:46.12 [11004:17232:0624/114946.127:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 24, 2019 11:57:02.01 [13016:9932:0624/115702.012:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+6월 24, 2019 11:58:11.22 [17856:11356:0624/115811.227:ERROR:browser_process_sub_thread.cc(221)] Waited 18 ms for network service
+6월 24, 2019 12:10:59.87 [11124:17688:0624/121059.876:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 24, 2019 13:07:12.50 [8972:8684:0624/130712.500:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 24, 2019 15:30:42.47 [8972:9864:0624/153042.473:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 24, 2019 15:38:49.20 [15516:372:0624/153849.206:ERROR:browser_process_sub_thread.cc(221)] Waited 20 ms for network service
+6월 24, 2019 15:43:08.91 [15324:18156:0624/154308.911:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 24, 2019 15:51:44.64 [12796:16424:0624/155144.640:ERROR:browser_process_sub_thread.cc(221)] Waited 13 ms for network service
+6월 24, 2019 16:21:10.31 [16056:17412:0624/162110.319:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+
+6월 25, 2019 11:21:30.45 NEW SESSION
+6월 25, 2019 11:21:30.45 [15004:7796:0625/112130.443:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+6월 25, 2019 13:13:44.50 [13092:11672:0625/131344.500:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 25, 2019 14:50:46.88 [13092:13852:0625/145046.880:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 25, 2019 15:08:42.48 [14260:4956:0625/150842.484:ERROR:browser_process_sub_thread.cc(221)] Waited 28 ms for network service
+6월 25, 2019 15:17:54.54 [19280:14520:0625/151754.548:ERROR:browser_process_sub_thread.cc(221)] Waited 8 ms for network service
+6월 25, 2019 15:27:09.82 [18504:7960:0625/152709.825:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 25, 2019 16:39:49.21 [2032:14132:0625/163949.216:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+
+6월 26, 2019 16:40:08.81 NEW SESSION
+6월 26, 2019 16:40:08.81 [16228:1176:0626/164008.801:ERROR:browser_process_sub_thread.cc(221)] Waited 13 ms for network service
+
+6월 27, 2019 11:48:25.65 NEW SESSION
+6월 27, 2019 11:48:25.65 [2436:21124:0627/114825.643:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+6월 27, 2019 11:54:34.44 [18108:10112:0627/115434.443:ERROR:browser_process_sub_thread.cc(221)] Waited 9 ms for network service
+6월 27, 2019 11:57:05.89 [20424:15944:0627/115705.894:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+6월 27, 2019 13:27:47.51 [10448:20624:0627/132747.515:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+6월 27, 2019 14:36:49.16 [10448:20624:0627/143649.163:ERROR:textfield.cc(1758)] NOT IMPLEMENTED
+6월 27, 2019 15:42:39.51 [10448:10020:0627/154239.516:ERROR:browser_process_sub_thread.cc(221)] Waited 17 ms for network service
+6월 27, 2019 16:48:04.11 [18368:11872:0627/164804.117:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+
+6월 28, 2019 10:30:13.86 NEW SESSION
+6월 28, 2019 10:30:13.86 [11056:19248:0628/103013.848:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+6월 28, 2019 11:54:42.35 [1936:3180:0628/115442.356:ERROR:browser_process_sub_thread.cc(221)] Waited 16 ms for network service
+6월 28, 2019 12:02:07.15 [15236:5280:0628/120207.157:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+6월 28, 2019 12:05:52.34 [11828:17128:0628/120552.341:ERROR:browser_process_sub_thread.cc(221)] Waited 17 ms for network service
+6월 28, 2019 14:53:51.75 [20688:9424:0628/145351.757:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+
+7월 01, 2019 13:29:45.40 NEW SESSION
+7월 01, 2019 13:29:45.40 [12492:19568:0701/132940.500:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+7월 01, 2019 15:50:02.86 [12492:18572:0701/155002.869:ERROR:browser_process_sub_thread.cc(221)] Waited 11 ms for network service
+7월 01, 2019 16:10:56.04 [7724:21288:0701/161056.040:ERROR:browser_process_sub_thread.cc(221)] Waited 29 ms for network service
+
+7월 02, 2019 09:31:02.99 NEW SESSION
+7월 02, 2019 09:31:02.99 [7456:20860:0702/093102.992:ERROR:browser_process_sub_thread.cc(221)] Waited 24 ms for network service
+
+7월 02, 2019 10:39:57.96 NEW SESSION
+7월 02, 2019 10:39:57.96 [22184:16752:0702/103957.966:ERROR:browser_process_sub_thread.cc(221)] Waited 22 ms for network service
+7월 02, 2019 10:40:23.67 [23400:6884:0702/104023.670:ERROR:browser_process_sub_thread.cc(221)] Waited 30 ms for network service
+7월 02, 2019 10:47:25.23 [8416:22416:0702/104725.235:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+
+7월 02, 2019 14:00:21.32 NEW SESSION
+7월 02, 2019 14:00:21.32 [23396:23176:0702/140021.329:ERROR:browser_process_sub_thread.cc(221)] Waited 20 ms for network service
+7월 02, 2019 14:48:53.29 [18872:22964:0702/144853.299:ERROR:browser_process_sub_thread.cc(221)] Waited 10 ms for network service
+7월 02, 2019 15:06:32.36 [7560:22276:0702/150632.364:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+7월 02, 2019 15:49:10.80 [15792:6272:0702/154910.803:ERROR:browser_process_sub_thread.cc(221)] Waited 36 ms for network service
+7월 02, 2019 15:52:54.17 [19696:5732:0702/155254.177:ERROR:browser_process_sub_thread.cc(221)] Waited 21 ms for network service
+7월 02, 2019 15:59:49.02 [15936:4920:0702/155949.025:ERROR:browser_process_sub_thread.cc(221)] Waited 13 ms for network service
+7월 02, 2019 18:09:45.50 [19104:20940:0702/180945.500:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+7월 03, 2019 14:31:46.59 NEW SESSION
+7월 03, 2019 14:31:46.59 [3308:23740:0703/143146.575:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+7월 03, 2019 19:13:48.51 [22592:3984:0703/191348.515:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+
+7월 04, 2019 15:51:02.19 NEW SESSION
+7월 04, 2019 15:51:02.19 [22052:9612:0704/155102.198:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
+
+7월 05, 2019 14:19:34.03 NEW SESSION
+7월 05, 2019 14:19:34.03 [5304:23404:0705/141934.037:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+
+7월 05, 2019 15:55:24.70 NEW SESSION
+7월 05, 2019 15:55:24.70 [14552:25828:0705/155524.566:ERROR:browser_process_sub_thread.cc(221)] Waited 19 ms for network service
+
+7월 09, 2019 15:24:16.64 NEW SESSION
+7월 09, 2019 15:24:16.64 [13676:2784:0709/152416.645:ERROR:browser_process_sub_thread.cc(221)] Waited 30 ms for network service
+7월 09, 2019 15:48:38.08 [10340:6168:0709/154838.084:ERROR:browser_process_sub_thread.cc(221)] Waited 15 ms for network service
+7월 09, 2019 15:50:18.73 [13360:2820:0709/155018.737:ERROR:browser_process_sub_thread.cc(221)] Waited 26 ms for network service
+7월 09, 2019 15:51:20.36 [8868:5844:0709/155120.366:ERROR:browser_process_sub_thread.cc(221)] Waited 23 ms for network service
+7월 09, 2019 15:52:02.46 [1692:768:0709/155202.467:ERROR:browser_process_sub_thread.cc(221)] Waited 29 ms for network service
+
+7월 09, 2019 17:24:06.14 NEW SESSION
+7월 09, 2019 17:24:06.14 [10696:5288:0709/172406.128:ERROR:browser_process_sub_thread.cc(221)] Waited 17 ms for network service
+
+7월 09, 2019 17:24:56.40 NEW SESSION
+7월 09, 2019 17:24:56.40 [14844:9560:0709/172456.407:ERROR:browser_process_sub_thread.cc(221)] Waited 29 ms for network service
+7월 09, 2019 17:25:59.20 [15856:4248:0709/172559.205:ERROR:browser_process_sub_thread.cc(221)] Waited 27 ms for network service
+
+7월 09, 2019 18:12:20.48 NEW SESSION
+7월 09, 2019 18:12:20.48 [7872:12128:0709/181220.484:ERROR:browser_process_sub_thread.cc(221)] Waited 36 ms for network service
+
+7월 09, 2019 20:15:15.87 NEW SESSION
+7월 09, 2019 20:15:15.87 [4256:15336:0709/201515.875:ERROR:browser_process_sub_thread.cc(221)] Waited 20 ms for network service
+7월 09, 2019 20:46:17.78 [13248:7784:0709/204617.783:ERROR:browser_process_sub_thread.cc(221)] Waited 14 ms for network service
+
+7월 10, 2019 09:57:39.05 NEW SESSION
+7월 10, 2019 09:57:39.05 [2720:5612:0710/095739.051:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+7월 10, 2019 09:57:52.50 [2720:5612:0710/095752.506:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+7월 10, 2019 11:09:22.66 [2720:11012:0710/110922.664:ERROR:browser_process_sub_thread.cc(221)] Waited 12 ms for network service
