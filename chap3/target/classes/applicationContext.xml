@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- chap3/src/main/java/applicationContext.xml -->
+<!--
+	xmlns : namespace. (:이 붙지 않으면 default namespace)
+			xml은 태그를 내 마음대로 만들 수 있음. 그 태그를 유일한 것으로 만들어 줄 수 있게 이름 영역을 설정해 주는 것. 중복을 피할 수 있음.
+	
+-->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  <!-- .xsd 파일 : xml을 어떻게 만들어야 하는지의 규칙을 정의 -->
+	<bean id="project" class="chap3.Project">  <!-- 컨테이너 내부에 객체 생성. chap3에 있는 Project 타입의 객체를 만들어서 project라는 이름에 저장. -->
+		<property name="srcdirs">  <!-- setSrcdirs(List<String>) 메서드 호출. list가 주입 됨. -->
+			<list>  <!-- value들을 List 타입인 srcdirs 라는 객체에 저장. setSrcdirs() 메서드 반드시 필요. -->
+				<value>src/</value>
+				<value>srcResources/</value>
+			</list>
+		</property>
+		<property name="bindir" value="bin" />  <!-- setBindir(String) 호출. -->
+		<property name="classpath" value="src/" />  <!-- setClasspath(String) 호출. -->
+		<property name="build"><ref bean="runner" /></property>  <!-- setBuild(BuildRunner)호출. -->  <!-- 내 bean들 중 이름이 runner인 객체를 참조. -->
+	</bean>
+	<bean id="runner" class="chap3.BuildRunner">
+		<property name="path" value="c:/setup/" />  <!-- setPath(String) 메서드 호출. value가 주입된 상태로 bean 생성...? -->
+	</bean>
+	
+	<bean id="write" class="chap3.WriteImpl">
+		<constructor-arg><ref bean="articleDao" /></constructor-arg>  <!-- constructor-arg : 생성자의 매개변수라는 의미. -->
+	</bean>
+	<!-- <bean id="articleDao" class="chap3.OracleArticleDao" />  OracleArticleDao는 ArticleDao 인터페이스를 구현한 클래스. -->
+	<bean id="articleDao" class="chap3.MariaDBArticleDao" />  <!-- MariaDBArticleDao는 ArticleDao 인터페이스를 구현한 클래스. -->
+</beans>
